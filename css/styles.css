@@ -72,7 +72,6 @@ ul {
   padding: 0;
   margin-right: 305px;
   align-items: center;
-  align-self: center;
 }
 .site-nav .item + .item {
   margin-left: 50px;
@@ -404,7 +403,7 @@ ul {
   background-size: contain;
   background-repeat: no-repeat;
   background-origin: border-box;
-  display: inline-block;  
+  display: inline-block;
 }
 
 .icon-checkbox {
