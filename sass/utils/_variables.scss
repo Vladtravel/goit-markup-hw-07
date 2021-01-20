@@ -1,0 +1,27 @@
+$primary-text-color: #212121;
+$secondary-text-color: #757575;
+$text-color-white: #ffffff;
+$text-color-blue: #2196f3;
+$text-address: rgba(255, 255, 255, 0.6);
+$bg-color-blue: #2196f3;
+$bg-color-white: #ffffff;
+$bg-color-black: #2f303a;
+  
+  
+body {
+    background-color: $bg-color-white;
+    color: $primary-text-color;
+    font-family: Roboto, sans-serif;
+    font-style: normal;    
+  }
+  
+img {
+    display: block;
+  }
+  
+a {
+    text-decoration: none;
+  }
+ul {
+    list-style: none;
+  }  
