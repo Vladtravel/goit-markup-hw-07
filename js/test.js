@@ -143,23 +143,46 @@
 
 // ЗАДАЧА 19
 
-const products = [
-  { name: 'Радар', price: 1300, quantity: 4 },
-  { name: 'Сканер', price: 2700, quantity: 3 },
-  { name: 'Дроид', price: 400, quantity: 7 },
-  { name: 'Захват', price: 1200, quantity: 9 },
-];
+// const products = [
+//   { name: 'Радар', price: 1300, quantity: 4 },
+//   { name: 'Сканер', price: 2700, quantity: 3 },
+//   { name: 'Дроид', price: 400, quantity: 7 },
+//   { name: 'Захват', price: 1200, quantity: 9 },
+// ];
 
-function getAllPropValues(propName) {
-  const result = [];
-  console.log(result);
-  for (const product of products) {
-    // console.log(product);
+// function getAllPropValues(propName) {
+//   const result = [];
+//   // console.log(result);
+//   for (const product of products) {
+//     console.log(product);
 
-    if (propName) {
-      result.push(product[propName]);
-    }
-  }
-  return result;
-}
-console.log(getAllPropValues('price'));
+//     if (product[propName]) {
+//       result.push(product[propName]);
+//     }
+//   }
+//   return result;
+// }
+// console.log(getAllPropValues('category'));
+
+// ЗАДАЧА 20
+// const products = [
+//   { name: 'Радар', price: 1300, quantity: 4 },
+//   { name: 'Сканер', price: 2700, quantity: 3 },
+//   { name: 'Дроид', price: 400, quantity: 7 },
+//   { name: 'Захват', price: 1200, quantity: 9 },
+// ];
+
+// function calculateTotalPrice(productName) {
+//   let result = 0;
+
+//   for (const product of products) {
+//     console.log(product);
+
+//     if (productName === product.name) {
+//       result = product.price * product.quantity;
+//     }
+//   }
+//   return result;
+// }
+// console.log(calculateTotalPrice('Захват'));
+// ЗАДАЧА 21
